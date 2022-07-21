@@ -29,23 +29,23 @@
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
 			<key>IOPathMatch</key>
-			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GPP2@1,3/IOPP/pci1022,43d5@0/AppleUSBXHCIPCI@00000000</string>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GPP2@1,3/IOPP/PTXH@0/PTXH@00000000</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
-				<data>EwAAAA==</data>
+				<data>DgAAAA==</data>
 				<key>ports</key>
 				<dict>
 					<key>POT1</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>AQAAAA==</data>
 						<key>Comment</key>
-						<string>Type C, 2.0 personality</string>
+						<string></string>
 					</dict>
 					<key>POT2</key>
 					<dict>
@@ -54,7 +54,7 @@
 						<key>port</key>
 						<data>AgAAAA==</data>
 						<key>Comment</key>
-						<string>Vicino Type C, 3.0 personality</string>
+						<string></string>
 					</dict>
 					<key>POT3</key>
 					<dict>
@@ -63,7 +63,7 @@
 						<key>port</key>
 						<data>AwAAAA==</data>
 						<key>Comment</key>
-						<string>Front left, 3.0 personality</string>
+						<string></string>
 					</dict>
 					<key>POT4</key>
 					<dict>
@@ -72,7 +72,7 @@
 						<key>port</key>
 						<data>BAAAAA==</data>
 						<key>Comment</key>
-						<string>Front right, 3.0 personality</string>
+						<string></string>
 					</dict>
 					<key>POT5</key>
 					<dict>
@@ -81,25 +81,25 @@
 						<key>port</key>
 						<data>BQAAAA==</data>
 						<key>Comment</key>
-						<string>Type C, 3.0 personality</string>
+						<string>b type-c</string>
 					</dict>
 					<key>POT6</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>BgAAAA==</data>
 						<key>Comment</key>
-						<string>Vicino Type C, 2.0 personality</string>
+						<string>b5</string>
 					</dict>
 					<key>POT7</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>BwAAAA==</data>
 						<key>Comment</key>
-						<string>Front left, 2.0 personality</string>
+						<string>top 3</string>
 					</dict>
 					<key>POT8</key>
 					<dict>
@@ -108,7 +108,34 @@
 						<key>port</key>
 						<data>CAAAAA==</data>
 						<key>Comment</key>
-						<string>Front right, 2.0 personality</string>
+						<string></string>
+					</dict>
+					<key>POT9</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>CQAAAA==</data>
+						<key>Comment</key>
+						<string></string>
+					</dict>
+					<key>PO10</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>CgAAAA==</data>
+						<key>Comment</key>
+						<string></string>
+					</dict>
+					<key>PO11</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>CwAAAA==</data>
+						<key>Comment</key>
+						<string>top 1</string>
 					</dict>
 					<key>PO12</key>
 					<dict>
@@ -117,7 +144,7 @@
 						<key>port</key>
 						<data>DAAAAA==</data>
 						<key>Comment</key>
-						<string>Lontano PS2</string>
+						<string>b1</string>
 					</dict>
 					<key>PO13</key>
 					<dict>
@@ -126,46 +153,73 @@
 						<key>port</key>
 						<data>DQAAAA==</data>
 						<key>Comment</key>
-						<string>Vicino PS2</string>
+						<string>b2</string>
+					</dict>
+					<key>PO14</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>DgAAAA==</data>
+						<key>Comment</key>
+						<string>top 2</string>
 					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMacPro1,1</string>
+			<string>MacPro7,1</string>
 		</dict>
-		<key>GP17 - XHC0</key>
+		<key>GP13 - XHC0</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
 			<key>IOPathMatch</key>
-			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GP17@7,1/IOPP/XHC0@0,3/XHC0@60000000</string>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GP13@8,1/IOPP/XHC0@0,3/XHC0@60000000</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
-				<data>BgAAAA==</data>
+				<data>CAAAAA==</data>
 				<key>ports</key>
 				<dict>
 					<key>PRT1</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>AQAAAA==</data>
 						<key>Comment</key>
-						<string>Vicino HDMI, 2.0 personality</string>
+						<string>b3</string>
 					</dict>
 					<key>PRT2</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>AgAAAA==</data>
 						<key>Comment</key>
-						<string>Lontano HDMI, 2.0 personality</string>
+						<string>b4</string>
+					</dict>
+					<key>PRT3</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>AwAAAA==</data>
+						<key>Comment</key>
+						<string></string>
+					</dict>
+					<key>PRT4</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>BAAAAA==</data>
+						<key>Comment</key>
+						<string></string>
 					</dict>
 					<key>PRT5</key>
 					<dict>
@@ -174,7 +228,7 @@
 						<key>port</key>
 						<data>BQAAAA==</data>
 						<key>Comment</key>
-						<string>Vicino HDMI, 3.0 personality</string>
+						<string></string>
 					</dict>
 					<key>PRT6</key>
 					<dict>
@@ -183,7 +237,25 @@
 						<key>port</key>
 						<data>BgAAAA==</data>
 						<key>Comment</key>
-						<string>Lontano HDMI, 3.0 personality</string>
+						<string></string>
+					</dict>
+					<key>PRT7</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>BwAAAA==</data>
+						<key>Comment</key>
+						<string></string>
+					</dict>
+					<key>PRT8</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>CAAAAA==</data>
+						<key>Comment</key>
+						<string></string>
 					</dict>
 				</dict>
 			</dict>

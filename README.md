@@ -5,7 +5,7 @@
 - Motherboard : MSI Tomahawk B450 Max
 - Memory : Patriot Viper Steel DDR4 32Gb (4x8GB)
 - Video Card : GFX0 GK208B GeForce GT 710
-- Video Card : GFX1 GA104 GeForce RTX 3070 - disabled via Device Properties -> PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0) -> disable-gpu
+- Video Card : GFX1 GA104 GeForce RTX 3070 - disabled via SSDT-GPU-DISABLE
 - Keyboard : A4Tech KV-300H
 - Mouse : Logitech G305
 
@@ -19,10 +19,11 @@
 - [x] Bluetooth and ethernet
 - [x] Audio - Rear Jack (Green) + Front Speaker Jack (Headphone)
 - [x] iCloud, iMessage, Face Time
+- [X] Sleep 
 - [x] etc
 
 ## What's not Working?
-- [ ] Sleep 
+
 
 ## Credits
 - [Dortania](https://github.com/dortania) for the Opencore Desktop Guide
