@@ -1,5 +1,5 @@
-# Hackintosh-OpenCore-AMD-Ryzen-5-3600-MSI-TOMAHAWK-B450-MAX
-
+# Hackintosh-OpenCore-AMD-Ryzen-5-3600-MSI-TOMAHAWK-B450-MAX - MacOS Monterey 12.5.1 
+ 
 ## Specs
 - CPU : AMD Ryzen 5 3600 6-Core Processor
 - Motherboard : MSI Tomahawk B450 Max
@@ -14,19 +14,20 @@
 0.7.6
 
 ## What's Working?
-- [x] BigSur 11.6.7
+- [x] MacOS Monterey 12.5.1 (21G83)
 - [x] Restart and Shutdown. 
-- [x] Bluetooth and ethernet
+- [x] Ethernet
 - [x] Audio - Rear Jack (Green) + Front Speaker Jack (Headphone)
 - [x] iCloud, iMessage, Face Time
 - [X] Sleep 
 - [x] etc
 
 ## What's not Working?
-
+- [ ] Bluetooth (USB-Dongle CSR8510 A10)
 
 ## Credits
 - [Dortania](https://github.com/dortania) for the Opencore Desktop Guide
 - [Acidanthera](https://github.com/acidanthera) for too many things to mention each, starting from Opencore bootloader to a lot of crucial kexts...
 - [CorpNewt](https://github.com/corpnewt) for ProperTree and GenSMBIOS scripts
 - [Trulyspinach](https://github.com/trulyspinach) for SMCAMDProcessor.kext, AMDRyzenCPUPowerManagement.kext and AMD Power Gadget app.
+- [chris1111](https://github.com/chris1111/Geforce-Kepler-patcher) Geforce-Kepler-patcher
